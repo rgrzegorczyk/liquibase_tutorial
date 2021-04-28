@@ -1,13 +1,14 @@
-## Welcome to my Liquibase Tutorial.
+**Welcome to my Liquibase Tutorial**  
+Here is a complete GitHub repository for my tutorial on automating your database schema changes with Liquibase. To know what to do with all these files, check out the detailed instructions and manual in the [Liquibase tutorial](https://pretius.com/liquibase-tutorial/)  itself.
 
-You will find detailed instructions and manual at [Liquibase tutorial](https://pretius.com/liquibase-tutorial/)
+**How to quickly find the example files which I need?**
 
-## How to get example files through reading my manuals?
+As the tutorial is pretty huge (and new articles are upcoming) it may be difficult to find the example files you need at the moment. So, to make things as simple as possible, I created dedicated Git branches. The branches are named and ordered like the successive parts of the tutorial. You read further – you go to the next branch. Simple as that.
 
-Just switch to dedicated Git branch - branches are called and ordered like articles.
-The  further you read, then you go to next branch etc.
+As for now, you’ve got these branches to choose from:  
 
-e.g. If you just started with Liquibase and reading article number 1 ->  switch to dedicated GIT branch "1_What_is_liquibase_and_how_to_start_using_it".
-You will find files needed for article 1.
-
+ - 1_What_is_liquibase_and_how_to_start_using_it (installing Liquibase, 
+   configuring it, and trying it out with a new database).    - 
+ - 2_Start_using_liquibase_with_existing_project (using Liquibase with  
+   your existing project)
 
