@@ -1,7 +1,7 @@
 --liquibase formatted sql
 --changeset rgrzegorczyk:P_ADD_JOB_HISTORY runOnChange:true stripComments:false
 --comment Added some comments
-CREATE OR REPLACE EDITIONABLE PROCEDURE "HR"."P_ADD_JOB_HISTORY" 
+CREATE OR REPLACE EDITIONABLE PROCEDURE "P_ADD_JOB_HISTORY" 
   (  p_emp_id          job_history.employee_id%type --some comment
    , p_start_date      job_history.start_date%type
    , p_end_date        job_history.end_date%type
