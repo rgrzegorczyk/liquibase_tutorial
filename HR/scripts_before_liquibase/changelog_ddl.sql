@@ -1,7 +1,7 @@
 --liquibase formatted sql
 --changeset rgrzegorczyk:EMPLOYEES_table
 --comment Create table EMPLOYEES
-  CREATE TABLE "HR"."EMPLOYEES" 
+  CREATE TABLE "EMPLOYEES" 
    (	"EMPLOYEE_ID" NUMBER(6,0), 
 	"FIRST_NAME" VARCHAR2(20 CHAR), 
 	"LAST_NAME" VARCHAR2(25 CHAR), 
@@ -17,7 +17,7 @@
 
 --changeset rgrzegorczyk:JOBS_table
 --comment Create table JOBS   
-  CREATE TABLE "HR"."JOBS" 
+  CREATE TABLE "JOBS" 
    (	"JOB_ID" VARCHAR2(10 CHAR), 
 	"JOB_TITLE" VARCHAR2(35 CHAR), 
 	"MIN_SALARY" NUMBER(6,0), 
