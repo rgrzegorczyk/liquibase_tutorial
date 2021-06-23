@@ -8,6 +8,7 @@ As the tutorial is pretty huge (and new articles are upcoming) it may be difficu
 As for now, you’ve got these branches to choose from:  
 
  - 1_What_is_liquibase_and_how_to_start_using_it (installing Liquibase, 
-   configuring it, and trying it out with a new database).    - 
+   configuring it, and trying it out with a new database)
  - 2_Start_using_liquibase_with_existing_project (using Liquibase with  
    your existing project)
+ - Release_1_0 (Liquibase for teams: GIT collaboration and easy deployment)
